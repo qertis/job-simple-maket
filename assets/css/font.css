@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'Franklin Gothic Medium';
+	src: url('../fonts/FRAMDCN.eot');
+	src: local('FRAMDCN'), url('../fonts/FRAMDCN.woff') format('woff'), url('../fonts/FRAMDCN.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_1381">Text with this font applied</p> */
+.fontsforweb_fontid_1381 {
+	font-family: 'Franklin Gothic Medium' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

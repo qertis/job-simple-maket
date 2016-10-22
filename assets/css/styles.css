@@ -1,0 +1,82 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: #141B23 url(../images/bitmap.png) no-repeat fixed right top;
+}
+
+.page-header {
+    border: none;
+    padding: 0;
+    margin: 0;
+    height: 70px;
+}
+
+h1 {
+    font-size: 25px;
+    font-family: "Franklin Gothic Medium";
+    color: #fff;
+    line-height: 1.2;
+    text-align: left;
+    text-shadow: 0 0 4px #000;
+    margin: 65px 91px 10px;
+    z-index: 6;
+}
+
+ul {
+    font-size: 17px;
+    font-family: "Franklin Gothic Medium";
+    color: rgba(177, 187, 203, 0.871);
+    line-height: 1.2;
+    text-align: left;
+    text-shadow: 0 0 4px #000;
+    left: 51px;
+    margin-top: 65px;
+    z-index: 7;
+    list-style: none;
+    display: inline-flex;
+}
+
+ul li {
+    padding: 0 15px;
+}
+
+.footer {
+    position: absolute;
+    margin: 0 51px;
+    bottom: 0;
+    height: 60px;
+    font-size: 12px;
+    font-family: "Franklin Gothic Medium";
+    color: rgba(255, 255, 255, 0.271);
+    text-align: left;
+    text-shadow: 0 0 4px #000;
+    z-index: 5;
+}
+
+.container {
+    /*    width: 1000px;*/
+    max-width: 1000px;
+    padding: 0;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.article {
+}
+
+.article p {
+    font-size: 13px;
+    font-family: "Franklin Gothic Medium";
+    color: #fff;
+    line-height: 1.2;
+    text-align: left;
+    text-shadow: 0 0 4px #000;
+    margin: 0 92px;
+    white-space: pre-line;
+}
